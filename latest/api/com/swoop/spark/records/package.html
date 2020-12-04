@@ -510,8 +510,8 @@ work directly with Spark context APIs, allowing fast Spark-less testing.
       <a id="RecordEnvironment:RecordEnvironment"></a>
       <h4 class="signature">
       <span class="modifier_kind">
-        <span class="modifier"></span>
-        <span class="kind">trait</span>
+        <span class="modifier">abstract </span>
+        <span class="kind">class</span>
       </span>
       <span class="symbol">
         <a href="RecordEnvironment.html"><span class="name">RecordEnvironment</span></a><span class="result"> extends <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
@@ -521,7 +521,7 @@ work directly with Spark context APIs, allowing fast Spark-less testing.
         <img src="../../../../lib/permalink.png" alt="Permalink" />
       </a>
     </span>
-      <p class="shortcomment cmt">Base trait for the implicits that provide hints about how records are persisted.</p><div class="fullcomment"><div class="comment cmt"><p>Base trait for the implicits that provide hints about how records are persisted.</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+      <p class="shortcomment cmt">Base class for the implicits that provide hints about how records are persisted.</p><div class="fullcomment"><div class="comment cmt"><p>Base class for the implicits that provide hints about how records are persisted.</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
                 <span class="name">@implicitNotFound</span><span class="args">(<span>
       
       <span class="defval" name="&quot;Unable to find an implicit record environment for this record type. &quot; +<br/>  &quot;An implicit environment, e.g., FlatRecordEnvironment or PartitionedRecordEnvironment &quot; +<br/>  &quot;must be visible for many methods in Spark Records to work. Please, create one.&quot;">...</span>
